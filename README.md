@@ -1,0 +1,3 @@
+# Unsafe Raw Pointer Modification of Vector in Rust
+
+This repository demonstrates a potential bug in Rust related to the unsafe use of raw pointers to modify a vector.  Directly manipulating the underlying memory of a vector using raw pointers can lead to undefined behavior if not handled with extreme care. The example shows how simple changes made to the vector using a raw pointer can unexpectedly impact other parts of the program. The provided solution shows a more safe method to modify the vector's elements.
